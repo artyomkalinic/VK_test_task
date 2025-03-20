@@ -1,6 +1,7 @@
 #include <iostream>
 #include <fstream>
 #include <queue>
+#include <vector>
 
 void bfs(std::vector<std::vector<int>>& graph, int start) {
     std::queue<int> q;
